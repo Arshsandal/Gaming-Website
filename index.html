@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Gaming NFT</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+   </head>
+   <body style="overflow-x: hidden;" onload="myfunction()">
+      <div id="loading"></div>
+      <header id="header" class="header slider">
+         <div class="container-fluid custom-container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="mobile-nav-toggler">
+                     <i class="fa-solid fa-bars"></i>
+                  </div>
+                  <div class="toggle-menu-wrap">
+                     <nav class="toggle-menu-nav justify-content-center">
+                        <div class="logo">
+                           <a href="index.html">
+                           <img src="images/logo.png" class="img-fluid" alt="logo">
+                           </a>
+                        </div>
+                        <div class="toggle-menu-navbar-wrap nav-bar d-none d-xl-flex justify-content-center">
+                           <ul class="navigation">
+                              <li class="active main-menu-item">
+                                 <a href="#">HOME</a>
+                                 <ul class="sub-menu">
+                                    <li>
+                                       <a href="index.html">HOME ONE</a>
+                                    </li>
+                                    <li class="active">
+                                       <a href="index.html">HOME TWO</a>
+                                    </li>
+                                 </ul>
+                                 <div class="dropdown-btn">
+                                    <span class="plus-line"></span>
+                                 </div>
+                              </li>
+                              <li class="main-menu-item">
+                                 <a href="#">ABOUT US</a>
+                              </li>
+                              <li class="main-menu-item">
+                                 <a href="#">TOURNAMENT</a>
+                                 <ul class="sub-menu">
+                                    <li>
+                                       <a href="#">TOURNAMENT</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">TOURNAMENT SINGLE</a>
+                                    </li>
+                                 </ul>
+                                 <div class="dropdown-btn">
+                                    <span class="plus-line"></span>
+                                 </div>
+                              </li>
+                              <li class="main-menu-item">
+                                 <a href="#">PAGES</a>
+                                 <ul class="sub-menu">
+                                    <li>
+                                       <a href="#">GAMING SHOP</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">SHOP DETAILS</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">OUR SERVICES</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">SERVICES DETAILS</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">PLAYER DETAILS</a>
+                                    </li>
+                                 </ul>
+                                 <div class="dropdown-btn">
+                                    <span class="plus-line"></span>
+                                 </div>
+                              </li>
+                              <li class="main-menu-item">
+                                 <a href="#">NEWS</a>
+                                 <ul class="sub-menu">
+                                    <li>
+                                       <a href="OUR BLOG"></a>
+                                    </li>
+                                    <li>
+                                       <a href="#">BLOG DETAILS</a>
+                                    </li>
+                                 </ul>
+                                 <div class="dropdown-btn">
+                                    <span class="plus-line"></span>
+                                 </div>
+                              </li>
+                              <li class="main-menu-item">
+                                 <a href="#">CONTACT</a>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="toggle-menu-action d-md-block">
+                           <ul class="list-wrap">
+                              <li class="search">
+                                 <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                              </li>
+                              <li class="sign-in-btn">
+                                 <a href="#" class="tg-btn-3 tg-svg">
+                                    <div class="bg-img-2">
+                                       <i class="fa-solid fa-pen-to-square"></i>
+                                       <span>~SIGN IN</span>
+                                    </div>
+                                 </a>
+                              </li>
+                              <div class="offcanvas offcanvas-end bg-dark text-white" id="mykd">
+                                 <div class="offcanvas-header">
+                                    <h1 class="offcanvas-title"><img src="images/logo.png"></h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                                 </div>
+                                 <hr>
+                                 <div class="offcanvas-body">
+                                    <div class="container">
+                                       <h3>BEST SELLER OF MONTH IDEAS FOR <span class="nft"> NFT WALLET</span></h3>
+                                       <h3>Contact Us</h3>
+                                       <ul class="offCanvas__contact-list">
+                                          <li>
+                                             <a href="#">+9 333 222 5557</a>
+                                          </li>
+                                          <li>
+                                             <a href="#">info@webmail.com</a>
+                                          </li>
+                                          <li>
+                                             <a href="#">New Central Park W7 Street ,New York</a>
+                                          </li>
+                                       </ul>
+                                       <br>
+                                       <h2 class="subs">SUBSCRIBE</h2>
+                                       <form action="#" class="offCanvas__newsletter-form">
+                                          <input type="email" placeholder="Get News &amp; Updates">
+                                          <button type="submit"><i class="fa-solid fa-angles-right"></i></button>
+                                       </form>
+                                       <p>Subscribe dolor sitamet, consectetur adiping eli. Duis esollici tudin augue.</p>
+                                       <div class="container">
+                                          <hr>
+                                       </div>
+                                       <div class="social-links">
+                                          <li>
+                                             <a href="#">
+                                             <i class="fa-brands fa-twitter"></i>
+                                             </a>
+                                          </li>
+                                          <li>
+                                             <a href="#">
+                                             <i class="fa-brands fa-facebook"></i>
+                                             </a>
+                                          </li>
+                                          <li>
+                                             <a href="#">
+                                             <i class="fa-brands fa-linkedin"></i>
+                                             </a>
+                                          </li>
+                                          <li>
+                                             <a href="#">
+                                             <i class="fa-brands fa-youtube"></i>
+                                             </a>
+                                          </li>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#mykd">
+                                 <li class="side-toggle-icon">
+                                    <span class="span-1"></span>
+                                    <span class="span-2"></span>
+                                    <span class="span-3"></span>
+                                 </li>
+                              </button>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+            <div class="container mt-5">
+               <div class="row justify-content-center mt-5">
+                  <div class="col-xl-8 col-lg-10">
+                     <div class="heading-main mt-4">
+                        <h2 class="smt" data-aos="fade-right">steaming</h2>
+                        <p data-aos="fade-left" data-aos-delay="300">Video Games Online</p>
+                        <div class="banner__btn wow bounceInLeft" data-aos="fade-right" data-aos-delay="400" style="visibility: visible; animation-delay: 0.6s; animation-name: bounceInLeft;">
+                           <a href="contact.html" class="tg-btn-3 tg-svg mx-auto">
+                              <div class="svg-icon" id="svg-1" data-svg-icon="assets/img/icons/shape.svg">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 188 61">
+                                    <path class="cls-1" d="M874,554.154L893.08,524h146.67L1060,552.843,1039.75,583H893.08Z" transform="translate(-873 -523)" style="stroke-dashoffset: 0;"></path>
+                                 </svg>
+                              </div>
+                              <span>contact us</span>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section class="page-2" id="hero">
+         <div class="asd" style="background-image: url(images/result_bg.png);">
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-lg-12 col-md-12 mt-5 pt-5">
+                     <div class="section-title">
+                        <span class="sub-title">
+                        <span data-aos="fade-right"data-aos-delay="100">L</span>
+                        <span data-aos="fade-right"data-aos-delay="200">A</span>
+                        <span data-aos="fade-right"data-aos-delay="300">T</span>
+                        <span data-aos="fade-right"data-aos-delay="400">E</span>
+                        <span data-aos="fade-right"data-aos-delay="500">S</span>
+                        <span data-aos="fade-right"data-aos-delay="600">T</span>
+                        &nbsp
+                        <span data-aos="fade-right"data-aos-delay="800">R</span>
+                        <span data-aos="fade-right"data-aos-delay="900">E</span>
+                        <span data-aos="fade-right"data-aos-delay="1000">S</span>
+                        <span data-aos="fade-right"data-aos-delay="1100">U</span>
+                        <span data-aos="fade-right"data-aos-delay="1200">L</span>
+                        <span data-aos="fade-right"data-aos-delay="1300">T</span>
+                        &nbsp
+                        <span data-aos="fade-right"data-aos-delay="1500">F</span>
+                        <span data-aos="fade-right"data-aos-delay="1600">O</span>
+                        <span data-aos="fade-right"data-aos-delay="1700">R</span>
+                        </span>
+                        <h1 data-aos="fade-up">EXPERIENCE JUST FOR</h1>
+                     </div>
+                     <div class="row justify-content-center">
+                        <div class="col-lg-12 col-md-12">
+                           <h4 class="match-winner-title" data-aos="fade-left">PREMIER LEAGUE</h4>
+                        </div>
+                     </div>
+                     <div class="row match__result-wrapper justify-content-center">
+                        <div class="col-xl-5 col-sm-6" data-aos="fade-right">
+                           <div class="match__winner-wrap">
+                              <div class="match__winner-info">
+                                 <h4 class="name">black hunt</h4>
+                                 <span class="price-amount">$500 000</span>
+                              </div>
+                              <div class="match__winner-img tg-svg">
+                                 <div class="team-logo-img">
+                                    <a href="#"><img src="images/other/win01.png" alt="img"></a>
+                                 </div>
+                                 <div class="svg-icon" id="svg-3"><img src="images/win_shape-2.svg"></div>
+                                 <h3 class="match__winner-place">win</h3>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-5 col-sm-6" data-aos="fade-left">
+                           <div class="match__winner-wrap-2">
+                              <div class="match__winner-info-2">
+                                 <h4 class="name-2">sky Hunter</h4>
+                                 <span class="price-amount-2">$300 000</span>
+                              </div>
+                              <div class="match__winner-img-2 tg-svg">
+                                 <div class="svg-icon-2" id="svg-4"><img src="images/win_shape-2.svg"></div>
+                                 <h3 class="match__winner-place-2">2nd</h3>
+                                 <div class="team-logo-img-2">
+                                    <a href="#"><img src="images/other/win02.png" alt="img"></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="final">
+                              <h6 class="final-date">December 19, 2023 | 9:50 am</h6>
+                              <span class="final-place" data-aos="fade-right">grand dubai</span>
+                              <div class="final-btn" data-aos="fade-left">
+                                 <a href="#l" class="tg-btn-3 tg-svg mx-auto">
+                                    <div class="svg-icon" id="svg-5" data-svg-icon="assets/img/icons/shape.svg">
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 188 61">
+                                          <path class="cls-1" d="M874,554.154L893.08,524h146.67L1060,552.843,1039.75,583H893.08Z" transform="translate(-873 -523)" style="stroke-dasharray: 436, 438; stroke-dashoffset: 0;"></path>
+                                       </svg>
+                                    </div>
+                                    <span>read more</span>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="page-3 section-pt-90">
+         <div class="container">
+            <div class="row justify-content-center align-items-center" data-aos="fade-left">
+               <div class="col-lg-6 order-0 order-lg-2 mt-5 pt-5">
+                  <div class="avtar-images">
+                     <img src="images/other/fun_fact_shape.png" alt="background" class="bg-shape">
+                     <img src="images/other/fun_fact.png" class="main-img" alt="image">
+                  </div>
+                  <div class="about-avtar">
+                     <div class="icons"><img src="images/icons/trophy.png"></div>
+                     <div class="avtar-content">
+                        <h5>Tournament</h5>
+                        <span>Development</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-10">
+                  <div class="page-3-title">
+                     <h3 class="title">The Journey of The <br> NFT Sites</h3>
+                  </div>
+                  <div class="about-page-2">
+                     <p>Gorem npsum dolor sit amet consectetur adipiscing elit. Duis elementum sollici tudin augue euismod. Nulla ullamcorper nunc. Morbi pharetra mi tellus mollis tincidunt massa venenatis. Etiam lacinia ipsumultrices.</p>
+                  </div>
+                  <div class="about-page-2-bottom">
+                     <div class="rotate">
+                        <div class="page-2-circle">
+                           <img src="images/icons/circle.svg" alt="img">
+                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" version="1.1">
+                              <path id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
+                              <text>
+                                 <textPath href="#textPath">super nft Gaming sits</textPath>
+                              </text>
+                           </svg>
+                        </div>
+                     </div>
+                     <div class="about-page-2-wrap">
+                        <div class="about-avtar-list mb-4">
+                           <div class="about-avtar-item">
+                              <h2 class="count" id="counter-1">
+                              </h2>
+                              <p>Member</p>
+                           </div>
+                           <div class="about-avtar-item">
+                              <h2 class="count" id="counter-2">
+                              </h2>
+                              <p>NFT</p>
+                           </div>
+                           <div class="about-avtar-item">
+                              <h2 class="count" id="counter-3">
+                              </h2>
+                              <p>Artist</p>
+                           </div>
+                        </div>
+                        <div class="avtar-content-btns justify-content-between">
+                           <a href="#" class="read-more-btn">
+                              <div class="svg-icon" id="svg-6"><img src="images/sign-in.svg"></div>
+                              <span>read more</span>
+                           </a>
+                           <a href="https://www.youtube.com/watch?v=ssrNcwxALS4" class="popup-video"><i class="fa-solid fa-play"></i><span class="text">How It Work</span></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container mt-5 pt-5 justify-content-center">
+            <div class="top-streaming">
+               <div class="section-title">
+                  <span class="sub-title">
+                  <span data-aos="fade-right"data-aos-delay="100">O</span>
+                  <span data-aos="fade-right"data-aos-delay="200">U</span>
+                  <span data-aos="fade-right"data-aos-delay="300">R</span>
+                  &nbsp
+                  <span data-aos="fade-right"data-aos-delay="400">T</span>
+                  <span data-aos="fade-right"data-aos-delay="500">O</span>
+                  <span data-aos="fade-right"data-aos-delay="600">P</span>
+                  &nbsp
+                  <span data-aos="fade-right"data-aos-delay="700">S</span>
+                  <span data-aos="fade-right"data-aos-delay="800">T</span>
+                  <span data-aos="fade-right"data-aos-delay="900">R</span>
+                  <span data-aos="fade-right"data-aos-delay="1000">E</span>
+                  <span data-aos="fade-right"data-aos-delay="1100">A</span>
+                  <span data-aos="fade-right"data-aos-delay="1200">M</span>
+                  <span data-aos="fade-right"data-aos-delay="1300">E</span>
+                  <span data-aos="fade-right"data-aos-delay="1400">R</span>
+                  <span data-aos="fade-right"data-aos-delay="1500">S</span>
+                  </span>
+                  <h1 data-aos="fade-up">TOP RATED STREAMERS</h1>
+               </div>
+            </div>
+            <div class="streamers-images mt-5 pt-3" data-aos="fade-right">
+               <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
+                  slides-per-view="4">
+                  <swiper-slide>
+                     <div class="streamers-item">
+                        <div class="streamers-thumb">
+                           <a href="#"><img src="images/team/streamers01.png" class="img-fluid"></a>
+                        </div>
+                        <div class="streamers-content">
+                           <h4 class="streamers-name">sky hunter</h4>
+                        </div>
+                     </div>
+                  </swiper-slide>
+                  <swiper-slide>
+                     <div class="streamers-item">
+                        <div class="streamers-thumb">
+                           <a href="#"><img src="images/team/streamers02.png" class="img-fluid"></a>
+                        </div>
+                        <div class="streamers-content">
+                           <h4 class="streamers-name">Phoenix</h4>
+                        </div>
+                     </div>
+                  </swiper-slide>
+                  <swiper-slide>
+                     <div class="streamers-item">
+                        <div class="streamers-thumb">
+                           <a href="#"><img src="images/team/streamers03.png" class="img-fluid"></a>
+                        </div>
+                        <div class="streamers-content">
+                           <h4 class="streamers-name">Max Jett</h4>
+                        </div>
+                     </div>
+                  </swiper-slide>
+                  <swiper-slide>
+                     <div class="streamers-item">
+                        <div class="streamers-thumb">
+                           <a href="#"><img src="images/team/streamers04.png"></a>
+                        </div>
+                        <div class="streamers-content">
+                           <h4 class="streamers-name">Brimstone</h4>
+                        </div>
+                     </div>
+                  </swiper-slide>
+                  <swiper-slide>
+                     <div class="streamers-item">
+                        <div class="streamers-thumb">
+                           <a href="#"><img src="images/team/streamers05.png" class="img-fluid"></a>
+                        </div>
+                        <div class="streamers-content">
+                           <h4 class="streamers-name">Mad Raze</h4>
+                        </div>
+                     </div>
+                  </swiper-slide>
+                  <swiper-slide>
+                     <div class="streamers-item">
+                        <div class="streamers-thumb">
+                           <a href="#"><img src="images/team/streamers06.png" class="img-fluid"></a>
+                        </div>
+                        <div class="streamers-content">
+                           <h4 class="streamers-name">Jackie Welles</h4>
+                        </div>
+                     </div>
+                  </swiper-slide>
+                  <swiper-slide>
+                     <div class="streamers-item">
+                        <div class="streamers-thumb">
+                           <a href="#"><img src="images/team/streamers07.png" class="img-fluid effect_hover"></a>
+                        </div>
+                        <div class="streamers-content">
+                           <h4 class="streamers-name">Yorinobu Ara</h4>
+                        </div>
+                     </div>
+                  </swiper-slide>
+               </swiper-container>
+            </div>
+         </div>
+      </section>
+      <section class="page-4">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 mt-5">
+                  <div class="upcoming-matches">
+                     <div class="section-title">
+                        <span class="sub-title">
+                        <span data-aos="fade-right"data-aos-delay="100">M</span>
+                        <span data-aos="fade-right"data-aos-delay="200">A</span>
+                        <span data-aos="fade-right"data-aos-delay="300">T</span>
+                        <span data-aos="fade-right"data-aos-delay="400">c</span>
+                        <span data-aos="fade-right"data-aos-delay="500">H</span>
+                        <span data-aos="fade-right"data-aos-delay="600">E</span>
+                        <span data-aos="fade-right"data-aos-delay="700">S</span>
+                        &nbsp
+                        <span data-aos="fade-right"data-aos-delay="900">L</span>
+                        <span data-aos="fade-right"data-aos-delay="1000">I</span>
+                        <span data-aos="fade-right"data-aos-delay="1100">S</span>
+                        <span data-aos="fade-right"data-aos-delay="1200">T</span>
+                        </span>
+                        <h1 data-aos="fade-up">upcoming MATCHES</h1>
+                     </div>
+                  </div>
+               </div>
+               <div class="row justify-content-center" data-aos="fade-right">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                     <div class="matches">
+                        <div class="match-1">
+                           <div class="match-details">
+                              <div class="match-teams">
+                                 <img src="images/other/team_vs01.png" class="img-fluid">
+                                 <div class="team-content">
+                                    <div class="team-left-content">
+                                       <span class="game-name-left">dota2</span>
+                                       <h3 class="name-left">sky hunter</h3>
+                                    </div>
+                                    <div class="match-time">
+                                       <h2 class="time">08:30</h2>
+                                    </div>
+                                    <div class="team-right-content">
+                                       <span class="game-name-right">dota2</span>
+                                       <h3 class="name-right">the tadium</h3>
+                                    </div>
+                                 </div>
+                                 <img src="images/other/team_vs02.png" class="img-fluid">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row justify-content-center mt-5" data-aos="fade-left">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                     <div class="matches">
+                        <div class="match-1">
+                           <div class="match-details">
+                              <div class="match-teams">
+                                 <img src="images/other/team_vs03.png" class="img-fluid">
+                                 <div class="team-content">
+                                    <div class="team-left-content">
+                                       <span class="game-name-left">valorant</span>
+                                       <h3 class="name-left">killer 7</h3>
+                                    </div>
+                                    <div class="match-time">
+                                       <h2 class="time">05:30</h2>
+                                    </div>
+                                    <div class="team-right-content">
+                                       <span class="game-name-right">valorant</span>
+                                       <h3 class="name-right">black MX</h3>
+                                    </div>
+                                 </div>
+                                 <img src="images/other/team_vs04.png" class="img-fluid">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row justify-content-center mt-5" data-aos="fade-right">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                     <div class="matches">
+                        <div class="match-1">
+                           <div class="match-details">
+                              <div class="match-teams">
+                                 <img src="images/other/team_vs05.png" class="img-fluid">
+                                 <div class="team-content">
+                                    <div class="team-left-content">
+                                       <span class="game-name-left">pubg pc</span>
+                                       <h3 class="name-left">killer 7</h3>
+                                    </div>
+                                    <div class="match-time">
+                                       <h2 class="time">09:30</h2>
+                                    </div>
+                                    <div class="team-right-content">
+                                       <span class="game-name-right">pubg pc</span>
+                                       <h3 class="name-right">black MX</h3>
+                                    </div>
+                                 </div>
+                                 <img src="images/other/team_vs06.png" class="img-fluid">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="page-5">
+         <div class="container justify-content-center">
+            <div class="row justify-content-center mt-5 pt-5">
+               <div class="col-lg-5 col-md-5 col-sm-6 mt-5 pt-2">
+                  <div class="projects">
+                     <div class="section-title">
+                        <h1 data-aos="fade-up">PROJECTS MYKD</h1>
+                        <span class="sub-title">
+                        <span data-aos="fade-right"data-aos-delay="100">O</span>
+                        <span data-aos="fade-right"data-aos-delay="200">U</span>
+                        <span data-aos="fade-right"data-aos-delay="300">R</span>
+                        &nbsp
+                        <span data-aos="fade-right"data-aos-delay="400">L</span>
+                        <span data-aos="fade-right"data-aos-delay="500">A</span>
+                        <span data-aos="fade-right"data-aos-delay="600">T</span>
+                        <span data-aos="fade-right"data-aos-delay="700">E</span>
+                        <span data-aos="fade-right"data-aos-delay="800">S</span>
+                        <span data-aos="fade-right"data-aos-delay="900">T</span>
+                        &nbsp
+                        <span data-aos="fade-right"data-aos-delay="1000">G</span>
+                        <span data-aos="fade-right"data-aos-delay="1100">A</span>
+                        <span data-aos="fade-right"data-aos-delay="1200">L</span>
+                        <span data-aos="fade-right"data-aos-delay="1300">L</span>
+                        <span data-aos="fade-right"data-aos-delay="1400">E</span>
+                        <span data-aos="fade-right"data-aos-delay="1500">R</span>
+                        <span data-aos="fade-right"data-aos-delay="1600">Y</span>
+                        </span>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-7 col-md-7 col-sm-6" data-aos="fade-left">
+                  <div class="project-images">
+                     <div class="project-arrows">
+                        <i class="fa-solid fa-chevron-left left-1"></i>
+                        <i class="fa-solid fa-chevron-left left-2"></i>
+                     </div>
+                     <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
+                        slides-per-view="3">
+                        <swiper-slide><img src="images/gallery/project_01.jpg" class="img-fluid"></swiper-slide>
+                        <swiper-slide><img src="images/gallery/project_02.jpg" class="img-fluid"></swiper-slide>
+                        <swiper-slide><img src="images/gallery/project_03.jpg" class="img-fluid"></swiper-slide>
+                        <swiper-slide><img src="images/gallery/project_04.jpg" class="img-fluid"></swiper-slide>
+                        <swiper-slide><img src="images/gallery/project_05.jpg" class="img-fluid"></swiper-slide>
+                        <swiper-slide><img src="images/gallery/project_06.jpg" class="img-fluid"></swiper-slide>
+                        <swiper-slide><img src="images/gallery/project_07.jpg" class="img-fluid"></swiper-slide>
+                        <swiper-slide><img src="images/gallery/project_08.jpg" class="img-fluid"></swiper-slide>
+                     </swiper-container>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="page-6">
+         <section class="abc">
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-lg-12 col-md-12 col-sm-12 mt-5 pt-4">
+                     <div class="connect-heading">
+                        <div class="section-title">
+                           <span class="sub-title">
+                           <span data-aos="fade-right"data-aos-delay="100">C</span>
+                           <span data-aos="fade-right"data-aos-delay="200">O</span>
+                           <span data-aos="fade-right"data-aos-delay="300">N</span>
+                           <span data-aos="fade-right"data-aos-delay="400">N</span>
+                           <span data-aos="fade-right"data-aos-delay="500">E</span>
+                           <span data-aos="fade-right"data-aos-delay="600">C</span>
+                           <span data-aos="fade-right"data-aos-delay="700">T</span>
+                           &nbsp
+                           <span data-aos="fade-right"data-aos-delay="800">W</span>
+                           <span data-aos="fade-right"data-aos-delay="900">I</span>
+                           <span data-aos="fade-right"data-aos-delay="1000">T</span>
+                           <span data-aos="fade-right"data-aos-delay="1100">H</span>
+                           &nbsp
+                           <span data-aos="fade-right"data-aos-delay="1200">U</span>
+                           <span data-aos="fade-right"data-aos-delay="1300">S</span>
+                           </span>
+                           <h1 data-aos="fade-up">STAY CONNECTED</h1>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row justify-content-center gutter-20 row-cols-2 row-cols-lg-6 row-cols-md-4 row-cols-sm-3" data-aos="fade-down">
+                  <div class="col">
+                     <div class="social-media">
+                        <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                        <span>Facebook</span>
+                        </a>
+                     </div>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="65" height="5" viewBox="0 0 65 5">
+                        <path d="M968,5630h65l-4,5H972Z" transform="translate(-968 -5630)"></path>
+                     </svg>
+                  </div>
+                  <div class="col">
+                     <div class="social-media">
+                        <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                        <span>Twitter</span>
+                        </a>
+                     </div>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="65" height="5" viewBox="0 0 65 5">
+                        <path d="M968,5630h65l-4,5H972Z" transform="translate(-968 -5630)"></path>
+                     </svg>
+                  </div>
+                  <div class="col">
+                     <div class="social-media">
+                        <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Instagram</span>
+                        </a>
+                     </div>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="65" height="5" viewBox="0 0 65 5">
+                        <path d="M968,5630h65l-4,5H972Z" transform="translate(-968 -5630)"></path>
+                     </svg>
+                  </div>
+                  <div class="col">
+                     <div class="social-media">
+                        <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                        <span>YouTube</span>
+                        </a>
+                     </div>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="65" height="5" viewBox="0 0 65 5">
+                        <path d="M968,5630h65l-4,5H972Z" transform="translate(-968 -5630)"></path>
+                     </svg>
+                  </div>
+                  <div class="col">
+                     <div class="social-media">
+                        <a href="#">
+                        <i class="fa-brands fa-discord"></i>
+                        <span>Discord</span>
+                        </a>
+                     </div>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="65" height="5" viewBox="0 0 65 5">
+                        <path d="M968,5630h65l-4,5H972Z" transform="translate(-968 -5630)"></path>
+                     </svg>
+                  </div>
+                  <div class="col">
+                     <div class="social-media">
+                        <a href="#">
+                        <i class="fa-brands fa-twitch"></i>
+                        <span>twitch</span>
+                        </a>
+                     </div>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="65" height="5" viewBox="0 0 65 5">
+                        <path d="M968,5630h65l-4,5H972Z" transform="translate(-968 -5630)"></path>
+                     </svg>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <section class="footer">
+         <div class="container">
+            <div class="row justify-content-center" data-aos="fade-right">
+               <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="brand-heading">
+                     <h1>they trust us</h1>
+                  </div>
+                  <div class="brand-slide" data-aos="zoom-in">
+                     <swiper-container class="mySwiper mt-5" pagination="true" pagination-clickable="true" slides-per-view="6"
+                        space-between="40" free-mode="true">
+                        <swiper-slide><img src="images/brand/brand01.png" class="img-fluid"></swiper-slide>
+                        <swiper-slide><img src="images/brand/brand02.png" class="img-fluid"></swiper-slide>
+                        <swiper-slide><img src="images/brand/brand03.png" class="img-fluid"></swiper-slide>
+                        <swiper-slide><img src="images/brand/brand04.png" class="img-fluid"></swiper-slide>
+                        <swiper-slide><img src="images/brand/brand05.png" class="img-fluid"></swiper-slide>
+                        <swiper-slide><img src="images/brand/brand06.png" class="img-fluid"></swiper-slide>
+                        <swiper-slide><img src="images/brand/brand07.png" class="img-fluid"></swiper-slide>
+                     </swiper-container>
+                  </div>
+               </div>
+            </div>
+            <div class="row mt-5 pt-5" data-aos="fade-right">
+               <div class="col-lg-6 col-md-6">
+                  <div class="left-country-name">
+                     <h2 class="text">Dubai</h2>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6" data-aos="fade-left">
+                  <div class="right-country-name">
+                     <h2 class="text">France</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row mt-5 pt-5" data-aos="fade-up">
+               <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="footer-info-left">
+                     <div class="f-i-l-heading">
+                        <i class="fa-solid fa-caret-left"></i>
+                        <i class="fa-solid fa-caret-right"></i>
+                        <h3>information</h3>
+                     </div>
+                     <ul class="list-wrap-1">
+                        <li>
+                           <a href="#">+971 333 222 557</a>
+                        </li>
+                        <li>
+                           <a href="#">info@exemple.com</a>
+                        </li>
+                        <li>
+                           <a href="#">Firestone building, Sharjah Ain 
+                           <br>
+                           Box 265, Dubai
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-12" data-aos="fade-down">
+                  <div class="mykd-img justify-content-center">
+                     <img src="images/logo.png" class="img-fluid">
+                     <ul class="list-wrap-1">
+                        <li>
+                           <a href="#">Home</a>
+                        </li>
+                        <li>
+                           <a href="#">About Us</a>
+                        </li>
+                        <li>
+                           <a href="#">Tournament</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-12" data-aos="fade-up">
+                  <div class="footer-info-right">
+                     <div class="f-i-r-heading">
+                        <h3 class="head-office">Head Office</h3>
+                        <i class="fa-solid fa-caret-left"></i>
+                        <i class="fa-solid fa-caret-right"></i>
+                     </div>
+                     <ul class="list-wrap-1">
+                        <li>
+                           <a href="#">+33 423 222 555</a>
+                        </li>
+                        <li>
+                           <a href="#">info@exemple.com</a>
+                        </li>
+                        <li>
+                           <a href="#">New Central Park W7 Street Lan 
+                           <br>
+                           France
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script type="text/javascript">
+      var preloader = document.getElementById('loading');
+      function myfunction() {
+          preloader.style.display = "none";
+      }
+      
+   </script>
+   <script>
+      AOS.init({
+        offset: 100 ,
+        duration: 800,
+      });
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+   <script>
+      var count = 0;
+      var speed = 0;
+      timer();
+      
+      function timer() {
+        count++;
+      
+        //Do code for showing the number of seconds here
+        document.getElementById("counter-1").innerHTML = count; // watch for      spelling
+      
+        if (count >= 40) {
+          return;
+        }
+      
+        speed = speed + count * 1; // or whatever
+        setTimeout(timer, speed);
+      
+      }
+      
+   </script>
+   <script>
+      var count2 = 0;
+      var speed2 = 0;
+      timer2();
+      
+      function timer2() {
+        count2++;
+      
+        //Do code for showing the number of seconds here
+        document.getElementById("counter-2").innerHTML = count2; // watch for      spelling
+      
+        if (count2 >= 12) {
+          return;
+        }
+      
+        speed2 = speed2 + count2 * 9; // or whatever
+        setTimeout(timer2, speed2);
+      
+      }
+      
+   </script>
+   <script>
+      var count3 = 0;
+         var speed3 = 0;
+         timer3();
+      
+         function timer3() {
+           count3++;
+      
+           //Do code for showing the number of seconds here
+           document.getElementById("counter-3").innerHTML = count3; // watch for      spelling
+      
+           if (count3 >= 30) {
+             return;
+           }
+      
+           speed3 = speed3 + count3 * 1; // or whatever
+           setTimeout(timer3, speed3);
+      
+         }
+      
+         
+   </script>
+   <script>
+      const swiper = new Swiper('.swiper', {
+      autoplay: {
+      delay: 5000,
+      },
+      });
+   </script>
+</html>
